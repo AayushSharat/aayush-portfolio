@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "aayush-portfolio"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "aayush-portfolio-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./example"]
